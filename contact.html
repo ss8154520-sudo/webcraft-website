@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact & Get a Quote | WebCraft Studio</title>
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+<header class="navbar">
+<a href="index.html" class="brand"><span class="logo-mark">W<span>.</span></span><span>WebCraft<small> DIGITAL STUDIO</small></span></a>
+<button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+<nav class="nav-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="pricing.html">Pricing</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a class="nav-cta active" href="contact.html">Let's Talk ↗</a></nav>
+</header>
+<main>
+<section class="page-hero container"><span class="eyebrow">LET'S WORK TOGETHER</span><h1>Tell us about your<br><span class="gradient-text">next project.</span></h1><p>Share your requirements and prepare a project inquiry. We'll help you plan the next step.</p></section>
+<section class="content-section container">
+<div class="contact-layout">
+<div class="contact-info">
+<span class="eyebrow">GET IN TOUCH</span><h2>Have an idea?<br>Let's discuss it.</h2>
+<p>Tell us what you want to create, which features you need and what budget you have in mind.</p>
+<div class="contact-method"><small>PROJECT INQUIRIES</small><b>Use the inquiry form →</b></div>
+<div class="contact-method"><small>WHATSAPP</small><b>Send your project brief</b></div>
+<div class="contact-method"><small>OUR SERVICES</small><b>Websites · UI · Web Apps</b></div>
+</div>
+<form class="contact-form" id="projectForm">
+<h2>Start a conversation</h2><p>Fill in the details below to prepare your inquiry.</p>
+<div class="form-grid">
+<div class="form-group"><label for="name">Your name *</label><input id="name" name="name" placeholder="Enter your name" required maxlength="80"></div>
+<div class="form-group"><label for="email">Email address *</label><input id="email" name="email" type="email" placeholder="you@example.com" required maxlength="120"></div>
+<div class="form-group"><label for="websiteType">Website type *</label><select id="websiteType" name="websiteType" required><option value="">Select a service</option><option>Business Website</option><option>E-commerce Website</option><option>Portfolio Website</option><option>Landing Page</option><option>Web Application</option><option>Website Redesign</option></select></div>
+<div class="form-group"><label for="budget">Estimated budget</label><select id="budget" name="budget"><option value="">Choose budget</option><option>Under ₹5,000</option><option>₹5,000 – ₹12,000</option><option>₹12,000 – ₹25,000</option><option>₹25,000+</option><option>Need advice</option></select></div>
+<div class="form-group full"><label for="plan">Package (optional)</label><select id="plan" name="plan"><option value="">Not sure yet</option><option>Basic</option><option>Professional</option><option>Business</option><option>Custom</option></select></div>
+<div class="form-group full"><label for="message">Project details *</label><textarea id="message" name="message" required maxlength="2000" placeholder="Describe your idea, pages, features and timeline..."></textarea></div>
+<div class="form-group full"><button type="submit" class="btn btn-primary">Prepare WhatsApp Inquiry ↗</button></div>
+</div>
+<p class="form-note">Your details are used to prepare a message in WhatsApp. Review it before sending. This demo does not store form submissions.</p>
+<p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+</form>
+</div>
+</section>
+</main>
+<footer class="footer"><div class="container footer-inner"><a href="index.html" class="brand"><span class="logo-mark">W<span>.</span></span><span>WebCraft<small> DIGITAL STUDIO</small></span></a><p>Thoughtful design. Powerful technology.</p><div class="footer-links"><a href="services.html">Services</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a></div><small>© <span class="year"></span> WebCraft Studio.</small></div></footer>
+</body>
+</html>
